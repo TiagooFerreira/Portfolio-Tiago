@@ -2,7 +2,7 @@
 
 function Projetos() {
     return (
-        <h2>Projetos Teste</h2>
+        <h2>Projetos Teste 2</h2>
     )
 }
 
