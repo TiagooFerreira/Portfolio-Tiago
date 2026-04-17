@@ -9,7 +9,7 @@ function Projetos() {
 
     useEffect(() => {
         const buscarRepositorios =  async () => {
-            const response = await fetch('https://api.github.com/users/tiagooferreira/repos')
+            const response = await fetch('https://api.github.com/users/tiagooferreira/repos?page=1&per_page=50')
             const data = await response.json()
             setRepositories(data)
         }
@@ -18,7 +18,7 @@ function Projetos() {
 
     return (
         <section className={styles.projetos}>
-            <h2>Projetos Teste 2</h2>
+            <h2>Projetos</h2>
             {
                 repositories.length > 0 ? (
                     <section className={styles.lista}>
