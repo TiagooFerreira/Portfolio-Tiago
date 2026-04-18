@@ -46,3 +46,26 @@
 .icones img {
     height: 70px;
 }
+
+@media (max-width: 768px){
+    .sobre .bio{
+        flex-direction: column;
+    }
+
+    .sobre p, h2 {
+        font-size: 0.6rem;
+    }
+
+    .techs {
+        width: 100%;
+        display: flex;
+    }
+
+    .techs img {
+        height: 40px;
+    }
+
+    .avatar{
+        width: 100px;
+    }
+}
