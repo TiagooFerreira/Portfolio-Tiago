@@ -47,6 +47,10 @@
     height: 70px;
 }
 
+.avatar {
+    border-radius: 15%;
+}
+
 @media (max-width: 768px){
     .sobre .bio{
         flex-direction: column;

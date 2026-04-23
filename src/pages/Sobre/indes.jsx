@@ -7,6 +7,7 @@ import react from './images/icon-react.svg'
 import node from './images/icon-node.svg'
 import sql from './images/icon-sql.svg'
 
+
 function Sobre() {
     return (
 
